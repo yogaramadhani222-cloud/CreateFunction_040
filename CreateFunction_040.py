@@ -10,3 +10,7 @@ def convert(nilai, unit):
 nilai = float(input("Masukkan nilai suhu: "))
 unit = input("Masukkan unit suhu (C/F): ")
 print(convert(nilai, unit))
+
+luaslingkaran = lambda jari_jari: 3.14 * (jari_jari ** 2)
+jari_jari = float(input("Masukkan nilai jari-jari lingkaran: "))
+print("Luas lingkaran dengan jari-jari", jari_jari, "adalah:", luaslingkaran(jari_jari))
